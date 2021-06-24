@@ -1,0 +1,13 @@
+@keyframes tom{
+	from {bottom: 0; left: 0;}
+	to {bottom: 0; left: 50% ;}
+}
+@keyframes tumbleweed{
+	/*from{bottom: 80px; right: 270px ;}
+	to{bottom: 300px; right: 120px;}*/
+	0%{bottom: 80px; right: 270px; transform: rotate(0deg);}
+	25%{bottom: 150px; right: 230px; transform: rotate(45deg);}
+	50%{bottom: 250px; right: 180px; transform: rotate(90deg);}
+	75%{bottom: 275px; right: 150px; transform: rotate(180deg);}
+	100%{bottom: 300px; right: 120px; transform: rotate(360deg);}
+}
