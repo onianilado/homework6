@@ -1,7 +1,6 @@
 .wildwest{
 	width: 100%;
 	height: 800px;
-	margin: 0 auto;
 	position: relative;
 }
 .tumbleweed{
@@ -29,4 +28,18 @@
 	position: absolute;
 	bottom: 30px;
 	right: 300px;
+}
+.spaceship{
+	position: absolute;
+	width: 50px;
+	top: 100px;
+	right: 750px;
+	animation: spaceship 3s linear infinite ;
+}
+.cloud{
+	width: 100px;
+	position: absolute;
+	left: 30px;
+	top: 30px
+
 }

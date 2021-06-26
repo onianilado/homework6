@@ -3,11 +3,16 @@
 	to {bottom: 0; left: 50% ;}
 }
 @keyframes tumbleweed{
-	/*from{bottom: 80px; right: 270px ;}
-	to{bottom: 300px; right: 120px;}*/
 	0%{bottom: 80px; right: 270px; transform: rotate(0deg);}
 	25%{bottom: 150px; right: 230px; transform: rotate(45deg);}
 	50%{bottom: 250px; right: 180px; transform: rotate(90deg);}
 	75%{bottom: 275px; right: 150px; transform: rotate(180deg);}
 	100%{bottom: 300px; right: 120px; transform: rotate(360deg);}
+}
+@keyframes spaceship{
+	0%{transform: translateY(50px); opacity: 0.1;}
+	25%{transform: translateY(70px); width: 70px;}
+	50%{transform: translateY(90px); width: 80px;}
+	75%{transform: translateY(110px); width: 90px;}
+	100%{transform: translateY(130px); width: 100px;}
 }
